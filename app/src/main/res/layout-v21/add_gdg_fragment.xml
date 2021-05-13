@@ -146,7 +146,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="1dp"
                 android:text="@string/motivation"
-                android:contentDescription="@string/motivation"
+                android:contentDescription="@string/motivation" 
                 app:layout_constraintBottom_toTopOf="@+id/EditTextWhy"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/EditTextRegion" />
@@ -161,7 +161,7 @@
                 android:layout_marginBottom="8dp"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:hint="@string/enter_motivation"
+                android:hint="@string/enter_motivation" 
                 app:layout_constraintBottom_toTopOf="@+id/button"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

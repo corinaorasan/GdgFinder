@@ -7,6 +7,6 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     style="@style/Widget.MaterialComponents.Chip.Choice"
-    app:chipBackgroundColor="@color/material_on_primary_emphasis_high_type"
+    app:chipBackgroundColor="@color/design_default_color_background"
     app:checkedIconVisible="true"
     tools:checked="true"/>

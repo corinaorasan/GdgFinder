@@ -57,6 +57,12 @@ class GdgListFragment : Fragment() {
             }
         })
 
+        viewModel.regionList.observe(viewLifecycleOwner, object: Observer<List<String>> {
+            override fun onChanged(data: List<String>?) {
+                data ?: return
+            }
+        })
+
         setHasOptionsMenu(true)
         return binding.root
     }
